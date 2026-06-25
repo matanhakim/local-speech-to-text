@@ -1,0 +1,10 @@
+' Auto-start the dictation daemon hidden at login.
+'
+' Setup:
+'   1. Copy this file into your Startup folder. Open it with: Win+R -> shell:startup
+'   2. Rename it to remove ".template" (so it ends in .vbs).
+'   3. Edit the path below to the absolute path of start_hidden.vbs in your clone.
+'
+' To disable autostart later: delete this file from the Startup folder.
+Set sh = CreateObject("WScript.Shell")
+sh.Run "wscript ""C:\path\to\local-voice-llm\dictation\start_hidden.vbs""", 0, False
