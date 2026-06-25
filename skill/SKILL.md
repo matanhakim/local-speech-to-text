@@ -18,9 +18,8 @@ license: MIT
 # Audio Transcription
 
 Reusable local audio transcription via faster-whisper. Hebrew-first (uses the
-ivrit-ai fine-tune by default), but works for any language. Designed to be
-invoked from any project: point it at a recording, get a timestamped Markdown
-transcript. Nothing leaves the machine.
+ivrit-ai fine-tune by default), but works for any language. Point it at a
+recording, get a timestamped Markdown transcript. Nothing leaves the machine.
 
 ## When to use
 
@@ -46,7 +45,7 @@ transcript. Nothing leaves the machine.
 
 ```bash
 pip install faster-whisper
-# plus ffmpeg from your system package manager (see setup-local-transcription.md)
+# plus ffmpeg from your system package manager - see ../install-whisper/
 ```
 
 ## Quickstart
@@ -64,10 +63,6 @@ The script is also invokable from bash:
 ```bash
 python transcribe.py "<path-to-audio>" -l he -o transcripts/<name>.md
 ```
-
-To install it as a Claude Code skill, copy this folder to
-`~/.claude/skills/audio-transcription/` and point the commands at
-`~/.claude/skills/audio-transcription/transcribe.py`.
 
 ## Defaults & flags
 
