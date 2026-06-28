@@ -1,4 +1,4 @@
-# local-voice-llm
+# local-speech-to-text
 
 **Free, offline speech-to-text for any language, running entirely on your own
 machine.** No cloud, no API key, no per-minute meter.

@@ -7,4 +7,4 @@
 '
 ' To disable autostart later: delete this file from the Startup folder.
 Set sh = CreateObject("WScript.Shell")
-sh.Run "wscript ""C:\path\to\local-voice-llm\dictation\start_hidden.vbs""", 0, False
+sh.Run "wscript ""C:\path\to\local-speech-to-text\dictation\start_hidden.vbs""", 0, False
