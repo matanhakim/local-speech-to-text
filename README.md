@@ -63,7 +63,7 @@ transcription script (part 3) are cross-platform.
 ## Background
 
 Companion to the blog post
-[*Free, Offline Speech-to-Text for Non-English Languages*](https://www.matanhakim.com/posts/2026-06-25-local-transcription/).
+[*Free, Offline Speech-to-Text for Non-English Languages*](https://www.matanhakim.com/posts/2026-06-29-local-transcription/).
 
 ## License
 
